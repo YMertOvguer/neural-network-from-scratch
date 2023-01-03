@@ -57,7 +57,7 @@ void Neuron::transfer() {
 	m_output = 1.0f / (1.0f + std::exp(-m_activation));
 }
 
-/* LAYER */
+// LAYER
 
 /*
 * Layer Constructor
